@@ -1,0 +1,13 @@
+{
+  "name": "labshelf",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "backend:dev": "python manage.py runserver 127.0.0.1:8000",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:preview": "npm --prefix frontend run preview",
+    "frontend:lint": "npm --prefix frontend run lint",
+    "test": "python manage.py test"
+  }
+}
